@@ -1,0 +1,43 @@
+﻿GIT---------------------------------------------------------Distributed Version Control-------------------------
+		cd demo...................
+For login setup
+git config—global user.name prom
+git config—global user.email 
+
+
+git init
+touch file.txt  //to create a file 
+touch file1.txt
+git add file.txt //add files to the staging area and to add these file to the repository we use
+git commit
+git status
+git lifecycle--
+. file in the working directory-->staging area-->repository 
+
+to add..... git add pro.txt 
+git add pro1.txt
+git commit -m "message" // to commit the changes to the repository
+git log // to get the status of the diff files
+git checkout – filename  //for revert back the thing i.e. to perform the undo of the changes.
+git oneline // to see all the commit in the repository
+git checkout commitId 
+
+git checkout master // to go to the master 
+
+
+Pocess to commmit this file in the repo:
+1. git add git.odt
+2. git commit -m “commit for the git notes file”
+3. git log –oneline //to see the file in the repo
+git commit –amend -m “to cmmit last file”
+
+Branches------------------------
+git branch // tell no branches are available----*master will  be shown
+git branch newbranch//created a new branch
+switch to branch ‘newbranch’ // we have to switch to the new branch we have created
+// and then perform some commits to the newbranch we have created.
+
+
+
+
+
