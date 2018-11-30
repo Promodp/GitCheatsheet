@@ -34,9 +34,24 @@ git commit –amend -m “to cmmit last file”
 Branches------------------------
 git branch // tell no branches are available----*master will  be shown
 git branch newbranch//created a new branch
-switch to branch ‘newbranch’ // we have to switch to the new branch we have created
+git checkout newbranch // we have to switch to the new branch we have created
 // and then perform some commits to the newbranch we have created.
+Git merge newbranch  // this will merge the newbranch to the master branch branch
+git branch -d newbranch // to delet the newbranch that we have created but before that we need to switch to the master branch.( -D )...it can be used for forceful deletion.
 
+.git commit -am “adding the file to stage and also commiting it.”
+
+
+..........................................................................................
+For the syn process:-
+git remote add origin https://github.com/Promodp/GitCheatsheet.git---for syn proceess of the git rep to github with the repo url.
+git remote show origin ///to show the connections established.
+git push origin master///inorder to push the master branch that we have created to the remote repository.
+And then give the username and password for the github arccount.......done.
+
+To clone someone’s repository:
+create a new folder and then write
+git clone URL //// the url is for cloning the someones repository.
 
 
 
